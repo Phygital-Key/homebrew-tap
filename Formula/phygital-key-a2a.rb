@@ -2,28 +2,28 @@
 class PhygitalKeyA2a < Formula
   desc "Phygital Key A2A: approve exact AI actions with a passkey or hardware key"
   homepage "https://github.com/Phygital-Key/phygital-key-a2a"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.2.0/phygital-key-a2a-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9f847762d3c7015e7c217d662befd266a3a51a35e905fb61bb19c9b16be0531b"
+      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.3.0/phygital-key-a2a-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "7cb4f3257f8747b29168bf06830a11bd5290f036362e574a5b1551199a4509c5"
     end
     on_intel do
-      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.2.0/phygital-key-a2a-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1397e45fcde76df7ba118df486973a684d2eba23f391f278f6d6a32a3599ce33"
+      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.3.0/phygital-key-a2a-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1b4be4012e2556b58a88b042c15ef9c9a20a87f0055c3cc8a2cf12066958246e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.2.0/phygital-key-a2a-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "5fd70e49dba5aab769da1ce1335f8e5dbaa7678b58e489cf8cd478a17d8f2f58"
+      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.3.0/phygital-key-a2a-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5e768e8cbf821392e299e373ee90d7c5bd84c767d05000231204b9c309c261b5"
     end
     on_intel do
-      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.2.0/phygital-key-a2a-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fd9fa0fcc4aeddf7ff698cb3f17c6b10499734ac3835f6799086de7f01ca8005"
+      url "https://github.com/Phygital-Key/phygital-key-a2a/releases/download/v0.3.0/phygital-key-a2a-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5544043e0d9b31b593832c5acb71be67b581a97f93c67e254aa9cf3ed770d965"
     end
   end
 
