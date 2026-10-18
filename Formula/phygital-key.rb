@@ -2,28 +2,28 @@
 class PhygitalKey < Formula
   desc "Approve exact AI actions with a passkey or hardware key (MCP gate + verifier)"
   homepage "https://github.com/Phygital-Key/phygital-key-mcp"
-  version "0.2.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.2.0/phygital-key-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "505da73afba4189b9c7139dd7fc806b91bd7a9d6e52942861e02eda59edc2bc8"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.3.0/phygital-key-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "b65a4810f7997106f91565f4f61715f93454e29589a43ee4b666e165f9e510b4"
     end
     on_intel do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.2.0/phygital-key-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e22caec5e323223b66b5d1e8a0d42f7b866ce278891046280d5f67c2faa84db5"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.3.0/phygital-key-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "f9f1957e86aca418b4d8baec9123093ce7cfe296c0f89d13e41ca427da13e8e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.2.0/phygital-key-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "afd09f9598be6da7209b7dd4d2cbddf7f9c270a5b2bb555e5664e3ad9700fd58"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.3.0/phygital-key-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "d9a99e448b1616f3432addabc75ae9fe87d2b435f07b7fee0ef565df5cb25b62"
     end
     on_intel do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.2.0/phygital-key-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "270c40d95a1643220f28d1d4d7025187a04ea28ae3a8315483f20e43abf07d59"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.3.0/phygital-key-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f9e18339f581e35d4a4bcd4e026033edb5174bd01a9189050fe9a344e5ded4fa"
     end
   end
 
