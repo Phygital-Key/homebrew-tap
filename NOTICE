@@ -1,0 +1,8 @@
+Phygital Key Homebrew tap
+Copyright 2026 Phygital-Key and the Phygital Key contributors
+Original project: https://github.com/Phygital-Key/homebrew-tap
+
+Licensed under the Apache License, Version 2.0 (see LICENSE). Keep this NOTICE file with any copy or changed version.
+
+The formulas in Formula/ install signed releases of Phygital Key MCP and Phygital Key A2A, and are written by
+scripts/package-manifests.sh in each product's repository. They are not edited by hand.
