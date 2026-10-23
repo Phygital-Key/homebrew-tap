@@ -2,28 +2,28 @@
 class PhygitalKeyMcp < Formula
   desc "Phygital Key MCP: approve exact AI actions with a passkey or hardware key"
   homepage "https://github.com/Phygital-Key/phygital-key-mcp"
-  version "0.6.0"
+  version "0.6.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.0/phygital-key-mcp-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "efa55be37915b9fb0853fcf02fe782f426c46840a59221e1d466b8e4321586b3"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-aarch64-apple-darwin.tar.gz"
+      sha256 "3d784ac70e8f59614b354e87ffa0a92f91b8cb595f7e72ef022bd510303c23b1"
     end
     on_intel do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.0/phygital-key-mcp-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "f434817a4ae00dfb8df1f64e017b633cea4d2e60b0df7f909472fc25b9c4dcfb"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-x86_64-apple-darwin.tar.gz"
+      sha256 "f348ffd670d4a2f1ff9bb99c8737d2818a8b316b1965822fd485a4d20250f43e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.0/phygital-key-mcp-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "985a431752d77ecaa628a9a629a8b1d8896f834fb8927973dfb2252165ac740d"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b1fe711154f272696653cf823fc1d0e278ea1d62376de9eed68a7186ed118e00"
     end
     on_intel do
-      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.0/phygital-key-mcp-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5ad32bb79451e5784416b9f024937d2e3d1a199f6ae1b03bb8f35c4843727833"
+      url "https://github.com/Phygital-Key/phygital-key-mcp/releases/download/v0.6.2/phygital-key-mcp-v0.6.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "c7876a521bd045467848783029f9acb3315c76a749e6a77c51469bca1ee09f52"
     end
   end
 
